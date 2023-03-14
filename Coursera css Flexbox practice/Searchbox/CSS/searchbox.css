@@ -1,0 +1,26 @@
+.container {
+    display: inline-flex;
+    flex: 1 1 300px;
+    border-radius: 20px;
+    border: 1px solid skyblue;
+    overflow: hidden; /*clips overflowing content, which in this case is the text we enter in the search query*/
+}
+
+.icon {
+    padding: 0.8rem;
+}
+
+.searchBox {
+    border: 0; 
+    text-align: center;
+    flex: 1; /*will cause the search input area to take up the remaining space. See note on flex-grow */
+}
+
+.searchButton {
+    color: white;
+    background: skyblue;
+    border: 0;
+    padding: 0.8rem;
+    border-radius: 15px;
+}
+

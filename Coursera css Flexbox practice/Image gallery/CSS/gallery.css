@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    border: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #BCE29E;
+}
+
+.item {
+    margin: 5px;
+    background-color: #E5EBB2;
+    padding: 8px;
+    border-radius: 10px;
+}

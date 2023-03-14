@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #2b2d42;
+    display: flex;
+    flex-flow: row wrap; /*without this for example, the blog will appear beneath culinary instead of them appearing in same line*/
+    justify-content: stretch; /* Distribute items evenly
+    Stretch 'auto'-sized items to fit
+    the container */
+}
+
+.container li{
+    list-style-type: none; /*removes the bullet in the list*/
+}
+
+.container a {
+    display: inline-block;
+    padding: 25px;
+    margin: 0 25;
+    text-align: center;
+    text-decoration: none; /*removes the underline brought about by the link*/
+    color: #ffffff;
+}
+
+.container a:hover {
+    background-color: skyblue;
+}
